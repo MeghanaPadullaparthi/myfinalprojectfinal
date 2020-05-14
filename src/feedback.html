@@ -39,6 +39,7 @@
                 <li class="nav-item"><a class="nav-link" href="feedback.html">Feedback </a></li>
 
 
+
                 </li>
             </ul>
         </div>
@@ -48,7 +49,7 @@
     <div class="row">
         <div class="col-8">
             <div class="card p-3 ">
-                <h1 class="card-title">About</h1>
+                <h1 class="card-title">Feedback</h1>
 
                 <h6 class="card-subtitle mb-2 text-muted">
                     <address>Authored By:
@@ -56,38 +57,46 @@
                     </address>
                 </h6>
 
-                <div class="card-body text-justify">
-                    <p>The website is about how to become anonymous, hide your internet traffic
-                        and identity, and browse the web freely without any fear of privacy invasion
-                        or any security concerns from your Government, school, or organization
-                        (NSA, CIA, FBI). Going off the grid and becoming fully anonymous (hiding
-                        your online identity) is not 100% possible, because of how the internet
-                        works, but we can do everything we possibly can to get as close as possible
-                        to anonymous. In this website, I will show you how to secure all of your
-                        devices--such as computers, phones (iPhone vs Android), tablets, and anything
-                        else, by securing your passwords, using two factor authentication, securing
-                        your web browsers (Mozilla Firefox & Tor), using a VPN (NordVPN or AirVPN),
-                        securing social media (Facebook, Snapchat), your communication like texting
-                        and email (Signal and Proton mail encrypted messengers), your operating
-                        system (Linux). I will also cover deleting a majority of your online identity/fingerprint
-                        to hide as much information about you as possible, in addition to give
-                        you tips on how to prevent social engineering attacks. Well, at a basic
-                        level, your privacy is constantly invaded by the websites you visit, your
-                        ISP, your government, your school/employer, and even services you use like
-                        Google or Facebook. Everything you do is being tracked and we aren't quite
-                        sure what consequences may result out of all of this data being created
-                        out of us. Some people also fear certain things like doxing, and other
-                        forms of leaks of your personal information. It is also common for corporations
-                        to sell your data for a profit, which is a complete violation of your privacy.</p>
+<main>
+    <fieldset>
+        <h3>Email: </h3>
+        <input type="email" name="email" id="email" autofocus required>
+        <h3> First Name: </h3>
+        <input type="text" name="first_name" id="first_name" required>
+        <h3> Last Name: </h3> <input type="text" name="last_name" id="last_name" required>
+        <h3> Phone Number:</h3>
+        <input type="tel" name="phone" id="phone" placeholder="999-999-9999"
+               pattern="\d{3}[\-]\d{3}[\-]\d{4}" title="Must be 999-999-999 format">
+        <h3> Message: </h3>
+        <input type="text" name="last_name"  id ="text" optional>
+
+
+
+
+    </fieldset>
+    <fieldset id="buttons">
+        <legend>Submit Your Feedback!</legend>
+        <label>&nbsp;</label>
+        <input type="submit" id="submit" value="Submit">
+        <input type="reset" id="reset" value="Reset Fields"><br>
+    </fieldset>
+
+</main>
+<!--<img src="../IMG_7335.jpg" height="620" width="550"/>-->
+
+
+<!-- <address>Authored By:
+                        <a href="mailto:webmaster@example.com">Meghana Padullaparthi</a>
+                    </address>
+                </h6>
+             <div class="card-body text-justify">
+
                 </div>
             </div>
         </div>
         <div class="col-4">
-            <div class="card mb-5 shadow-sm bg-white rounded p-3">
+         <div class="card mb-5 shadow-sm bg-white rounded p-3"> -->
 
-                <img class="a" src="../docs/security.jpeg" height = "500" width="500"/>
-
-                <div class="card-body">
                     <!-- <p class="card-text">I love nature</p>-->
                 </div>
             </div>
@@ -110,5 +119,3 @@
         crossorigin="anonymous"></script>
 <script src="js/all.js"></script>
 </body>
-
-
